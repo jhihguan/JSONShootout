@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205296561DD383BB006C4C75 /* User+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205296551DD383BB006C4C75 /* User+Unbox.swift */; };
 		2098D54A1DC1F5E800A15075 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2098D5491DC1F5E800A15075 /* Genome.framework */; };
 		2098D54B1DC1F5E800A15075 /* Genome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2098D5491DC1F5E800A15075 /* Genome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2098D54C1DC1F5FB00A15075 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2098D5491DC1F5E800A15075 /* Genome.framework */; };
@@ -131,6 +132,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		205296551DD383BB006C4C75 /* User+Unbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+Unbox.swift"; sourceTree = "<group>"; };
 		2098D5491DC1F5E800A15075 /* Genome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Genome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A0B9561DC2584D001D8A14 /* Recording+Genome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recording+Genome.swift"; sourceTree = "<group>"; };
 		20A0B9581DC25B60001D8A14 /* Program+Genome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Program+Genome.swift"; sourceTree = "<group>"; };
@@ -353,12 +355,13 @@
 				7C3FCD301DC1B2A100C82DEE /* Program+Gloss.swift */,
 				20A0B9581DC25B60001D8A14 /* Program+Genome.swift */,
 				9E9BF9CD1DCD126D00548161 /* Program+PMJSON.swift */,
-				5DA29ACD1DC733D800345728 /* User+JSON.swift */,
 				5DA29ACF1DC7347100345728 /* User+Marshal.swift */,
-				20BB48331DD223FC00B72AE5 /* User+Genome.swift */,
-				20BB48351DD232D100B72AE5 /* User+Gloss.swift */,
 				20BB48371DD2440F00B72AE5 /* User+Mapper.swift */,
+				205296551DD383BB006C4C75 /* User+Unbox.swift */,
 				20BB48391DD247C200B72AE5 /* User+Decodable.swift */,
+				5DA29ACD1DC733D800345728 /* User+JSON.swift */,
+				20BB48351DD232D100B72AE5 /* User+Gloss.swift */,
+				20BB48331DD223FC00B72AE5 /* User+Genome.swift */,
 			);
 			path = ModelObjects;
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 				AA2B38D21DC0B57F008CECCD /* Recording+JSON.swift in Sources */,
 				71337C911DBEBCA300DCA374 /* Recording+SwiftyJSON.swift in Sources */,
 				20A0B9571DC2584D001D8A14 /* Recording+Genome.swift in Sources */,
+				205296561DD383BB006C4C75 /* User+Unbox.swift in Sources */,
 				20BB48381DD2440F00B72AE5 /* User+Mapper.swift in Sources */,
 				71337C951DBEBFC300DCA374 /* Program+Mapper.swift in Sources */,
 				71337C8B1DBEBC6B00DCA374 /* Recording+Marshal.swift in Sources */,

@@ -22,10 +22,23 @@ class Unbox_Tests: XCTestCase {
         }
     }
     
+    func testPerformance2() {
+        self.measure {
+            let users: [User] = try! unbox(data: self.usersData)
+            XCTAssert(users.count > 100)
+        }
+    }
+    
     private lazy var data:Data = {
         let path = Bundle(for: type(of: self)).url(forResource: "Large", withExtension: "json")
         let data = try! Data(contentsOf: path!)
         return data
     }()
-
+    
+    private lazy var usersData:Data = {
+        let path = Bundle(for: type(of: self)).url(forResource: "Users", withExtension: "json")
+        let data = try! Data(contentsOf: path!)
+        return data
+    }()
+    
 }
