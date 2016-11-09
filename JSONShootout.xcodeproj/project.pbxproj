@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		205296561DD383BB006C4C75 /* User+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205296551DD383BB006C4C75 /* User+Unbox.swift */; };
 		205296581DD389C1006C4C75 /* User+SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205296571DD389C1006C4C75 /* User+SwiftyJSON.swift */; };
+		2052965A1DD38ED5006C4C75 /* User+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205296591DD38ED5006C4C75 /* User+ObjectMapper.swift */; };
 		2098D54A1DC1F5E800A15075 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2098D5491DC1F5E800A15075 /* Genome.framework */; };
 		2098D54B1DC1F5E800A15075 /* Genome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2098D5491DC1F5E800A15075 /* Genome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2098D54C1DC1F5FB00A15075 /* Genome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2098D5491DC1F5E800A15075 /* Genome.framework */; };
@@ -135,6 +136,7 @@
 /* Begin PBXFileReference section */
 		205296551DD383BB006C4C75 /* User+Unbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+Unbox.swift"; sourceTree = "<group>"; };
 		205296571DD389C1006C4C75 /* User+SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+SwiftyJSON.swift"; sourceTree = "<group>"; };
+		205296591DD38ED5006C4C75 /* User+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+ObjectMapper.swift"; sourceTree = "<group>"; };
 		2098D5491DC1F5E800A15075 /* Genome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Genome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A0B9561DC2584D001D8A14 /* Recording+Genome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recording+Genome.swift"; sourceTree = "<group>"; };
 		20A0B9581DC25B60001D8A14 /* Program+Genome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Program+Genome.swift"; sourceTree = "<group>"; };
@@ -362,6 +364,7 @@
 				205296551DD383BB006C4C75 /* User+Unbox.swift */,
 				205296571DD389C1006C4C75 /* User+SwiftyJSON.swift */,
 				20BB48391DD247C200B72AE5 /* User+Decodable.swift */,
+				205296591DD38ED5006C4C75 /* User+ObjectMapper.swift */,
 				5DA29ACD1DC733D800345728 /* User+JSON.swift */,
 				20BB48351DD232D100B72AE5 /* User+Gloss.swift */,
 				20BB48331DD223FC00B72AE5 /* User+Genome.swift */,
@@ -550,6 +553,7 @@
 				CC9786BE1CEBAC21005A5DEA /* Program.swift in Sources */,
 				71337C8D1DBEBC7900DCA374 /* Recording+Mapper.swift in Sources */,
 				20BB483A1DD247C200B72AE5 /* User+Decodable.swift in Sources */,
+				2052965A1DD38ED5006C4C75 /* User+ObjectMapper.swift in Sources */,
 				5DA29ACE1DC733D800345728 /* User+JSON.swift in Sources */,
 				6812991B1DC00DBB009960BE /* Program+ObjectMapper.swift in Sources */,
 				9E9BF9D01DCD307200548161 /* Recording+PMJSON.swift in Sources */,
